@@ -12,5 +12,17 @@
   "block.androcustom.chain_bonded_bricks": "Chain Bonded Bricks",
   "block.androcustom.scrap_block": "Scrap Block",
   "block.androcustom.horizontal_paper_wall": "Horizontal Paper Wall",
-  "block.androcustom.base_paper_wall": "Base Paper Wall"
+  "block.androcustom.base_paper_wall": "Base Paper Wall",
+  "block.androcustom.brick_tile": "Brick Tile",
+  "block.androcustom.broken_bricks": "Broken Bricks",
+  "block.androcustom.fokhan_stone": "Fokhan Stone",
+  "block.androcustom.fokhan_stone_big_brick": "Fokhan Stone Big Brick",
+  "block.androcustom.fokhan_stone_big_clinkers": "Fokhan Stone Big Clinkers",
+  "block.androcustom.fokhan_stone_brick": "Fokhan Stone Brick",
+  "block.androcustom.fokhan_stone_clinkers": "Fokhan Stone Clinkers",
+  "block.androcustom.fokhan_stone_ornate_tile": "Fokhan Stone Ornate Tile",
+  "block.androcustom.fokhan_stone_ornate_tile_2": "Fokhan Stone Ornate Tile 2",
+  "block.androcustom.fokhan_stone_tile": "Fokhan Stone Tile",
+  "block.androcustom.fokhan_stone_tiny_tiles": "Fokhan Stone Tiny Tiles",
+  "block.androcustom.fokhan_stone_vertical_clinkers": "Fokhan Stone Vertical Clinkers"
 }

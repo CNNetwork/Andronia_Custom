@@ -5,12 +5,14 @@ import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
+import net.minecraft.client.audio.Sound;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.fml.RegistryObject;
 
+import javax.tools.Tool;
 import java.util.function.Supplier;
 
 public class ModBlocks
@@ -84,6 +86,66 @@ public class ModBlocks
             () -> new Block(AbstractBlock.Properties.create(Material.WOOL)
                     .hardnessAndResistance(3f, 5f)
                     .harvestLevel(1).harvestTool(ToolType.AXE).sound(SoundType.PLANT)));
+
+    public static final RegistryObject<Block> BRICK_TILE = register("brick_tile",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> BROKEN_BRICKS = register("broken_bricks",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> FOKHAN_STONE = register("fokhan_stone",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> FOKHAN_STONE_BIG_BRICK = register("fokhan_stone_big_brick",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> FOKHAN_STONE_BIG_CLINKERS = register("fokhan_stone_big_clinkers",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> FOKHAN_STONE_BRICK = register("fokhan_stone_brick",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> FOKHAN_STONE_CLINKERS = register("fokhan_stone_clinkers",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> FOKHAN_STONE_ORNATE_TILE = register("fokhan_stone_ornate_tile",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> FOKHAN_STONE_ORNATE_TILE_2 = register("fokhan_stone_ornate_tile_2",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> FOKHAN_STONE_TILE = register("fokhan_stone_tile",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> FOKHAN_STONE_TINY_TILES = register("fokhan_stone_tiny_tiles",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> FOKHAN_STONE_VERTICAL_CLINKERS = register("fokhan_stone_vertical_clinkers",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
 
 
     public static void register() { }
