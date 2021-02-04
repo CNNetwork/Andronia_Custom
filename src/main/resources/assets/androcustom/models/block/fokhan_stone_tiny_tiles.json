@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "androcustom:block/fokhan_stone_tiny_tiles"
+  }
+}
