@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": {"model": "androcustom:block/shingles_slab_low"},
+    "facing=south": {"model": "androcustom:block/shingles_slab_low", "y": 180},
+    "facing=west": {"model": "androcustom:block/shingles_slab_low", "y": 270},
+    "facing=east": {"model": "androcustom:block/shingles_slab_low", "y": 90}
+  }
+}

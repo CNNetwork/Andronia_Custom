@@ -24,5 +24,10 @@
   "block.androcustom.fokhan_stone_ornate_tile_2": "Fokhan Stone Ornate Tile 2",
   "block.androcustom.fokhan_stone_tile": "Fokhan Stone Tile",
   "block.androcustom.fokhan_stone_tiny_tiles": "Fokhan Stone Tiny Tiles",
-  "block.androcustom.fokhan_stone_vertical_clinkers": "Fokhan Stone Vertical Clinkers"
+  "block.androcustom.fokhan_stone_vertical_clinkers": "Fokhan Stone Vertical Clinkers",
+  "block.androcustom.shingles_slab": "Zalvari Shingles",
+  "block.androcustom.shingles_slab_low": "Zalvari Shingles Low",
+  "block.androcustom.shingles_block": "Shingles Block",
+  "block.androcustom.shingles_block_2": "Shingles Block 2",
+  "block.androcustom.shingles_block_3": "Shingles Block 3"
 }

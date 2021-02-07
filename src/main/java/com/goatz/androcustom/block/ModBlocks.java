@@ -11,6 +11,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.fml.RegistryObject;
+import com.goatz.androcustom.block.CustomSlab;
 
 import javax.tools.Tool;
 import java.util.function.Supplier;
@@ -143,6 +144,31 @@ public class ModBlocks
                     .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
 
     public static final RegistryObject<Block> FOKHAN_STONE_VERTICAL_CLINKERS = register("fokhan_stone_vertical_clinkers",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+
+    public static final RegistryObject<CustomSlab> SHINGLES_SLAB = register("shingles_slab",
+            () -> new CustomSlab(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(3f, 5f)
+                    .harvestTool(ToolType.PICKAXE).harvestLevel(1).sound(SoundType.STONE)));
+
+    public static final RegistryObject<CustomSlab> SHINGLES_SLAB_LOW = register("shingles_slab_low",
+            () -> new CustomSlab(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(3f, 5f)
+                    .harvestTool(ToolType.PICKAXE).harvestLevel(1).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> SHINGLES_BLOCK = register("shingles_block",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> SHINGLES_BLOCK_2 = register("shingles_block_2",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> SHINGLES_BLOCK_3 = register("shingles_block_3",
             () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
                     .hardnessAndResistance(5f, 7f).setRequiresTool()
                     .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
