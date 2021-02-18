@@ -173,6 +173,16 @@ public class ModBlocks
                     .hardnessAndResistance(5f, 7f).setRequiresTool()
                     .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
 
+    public static final RegistryObject<Block> FACTORY_STRIPES = register("factory_stripes",
+            () -> new Block(AbstractBlock.Properties.create(Material.IRON)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.METAL)));
+
+    public static final RegistryObject<Block> FACTORY_FLOOR = register("factory_floor",
+            () -> new Block(AbstractBlock.Properties.create(Material.IRON)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.METAL)));
+
 
     public static void register() { }
 
