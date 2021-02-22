@@ -183,6 +183,138 @@ public class ModBlocks
                     .hardnessAndResistance(5f, 7f).setRequiresTool()
                     .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.METAL)));
 
+    public static final RegistryObject<Block> BLUE_SHINGLES_BLOCK = register("blue_shingles_block",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> BLUE_SHINGLES_BLOCK_2 = register("blue_shingles_block_2",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> BLUE_SHINGLES_BLOCK_3 = register("blue_shingles_block_3",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> RED_SHINGLES_BLOCK = register("red_shingles_block",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> RED_SHINGLES_BLOCK_2 = register("red_shingles_block_2",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> RED_SHINGLES_BLOCK_3 = register("red_shingles_block_3",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> GREEN_SHINGLES_BLOCK = register("green_shingles_block",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> GREEN_SHINGLES_BLOCK_2 = register("green_shingles_block_2",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> GREEN_SHINGLES_BLOCK_3 = register("green_shingles_block_3",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> PINK_SHINGLES_BLOCK = register("pink_shingles_block",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> PINK_SHINGLES_BLOCK_2 = register("pink_shingles_block_2",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> PINK_SHINGLES_BLOCK_3 = register("pink_shingles_block_3",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> YELLOW_SHINGLES_BLOCK = register("yellow_shingles_block",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> YELLOW_SHINGLES_BLOCK_2 = register("yellow_shingles_block_2",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> YELLOW_SHINGLES_BLOCK_3 = register("yellow_shingles_block_3",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> AQUA_WOOL = register("aqua_wool",
+            () -> new Block(AbstractBlock.Properties.create(Material.WOOL)
+            .hardnessAndResistance(2f, 4f).sound(SoundType.CLOTH)));
+
+    public static final RegistryObject<Block> DIRTY_PURPLE_WOOL = register("dirty_purple_wool",
+            () -> new Block(AbstractBlock.Properties.create(Material.WOOL)
+                    .hardnessAndResistance(2f, 4f).sound(SoundType.CLOTH)));
+
+    public static final RegistryObject<Block> CRUMBLE_DIRT = register("crumble_dirt",
+            () -> new Block(AbstractBlock.Properties.create(Material.CLAY)
+                    .hardnessAndResistance(2f, 2f)
+                    .harvestLevel(1).harvestTool(ToolType.SHOVEL).sound(SoundType.GROUND)));
+
+    public static final RegistryObject<Block> CHOCOLATE_TILES = register("chocolate_tiles",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> CIRCLE_ENGRAVED_STONE = register("circle_engraved_stone",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> CIRCLE_ENGRAVED_STONE_2 = register("circle_engraved_stone_2",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> PAUSE = register("pause",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> BIG_CHOCOLATE_TILES = register("big_chocolate_tiles",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> STONE_BRICK = register("stone_brick",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> STONE_BRICK_2 = register("stone_brick_2",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> STONE_BRICK_3 = register("stone_brick_3",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> TRASH_BLOCK = register("trash_block",
+            () -> new Block(AbstractBlock.Properties.create(Material.CLAY)
+                    .hardnessAndResistance(2f, 2f)
+                    .harvestLevel(1).harvestTool(ToolType.SHOVEL).sound(SoundType.GROUND)));
 
     public static void register() { }
 

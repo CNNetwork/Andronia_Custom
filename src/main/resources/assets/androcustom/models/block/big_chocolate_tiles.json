@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "androcustom:block/big_chocolate_tiles"
+  }
+}
