@@ -1,17 +1,22 @@
 package com.goatz.androcustom.block;
 
 import com.goatz.androcustom.util.Registration;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.SoundType;
+import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.audio.Sound;
 import net.minecraft.item.BlockItem;
+import net.minecraft.item.DyeColor;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.fml.RegistryObject;
 import com.goatz.androcustom.block.CustomSlab;
+import com.goatz.androcustom.block.BrownStairs;
+import com.goatz.androcustom.block.ChimneyBlock;
+import com.goatz.androcustom.block.CustomSlabLow;
+import com.goatz.androcustom.block.BrownStairsHole;
+import com.goatz.androcustom.block.CustomStairs;
+
 
 import javax.tools.Tool;
 import java.util.function.Supplier;
@@ -148,12 +153,12 @@ public class ModBlocks
                     .hardnessAndResistance(5f, 7f).setRequiresTool()
                     .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
 
-    public static final RegistryObject<CustomSlab> SHINGLES_SLAB = register("shingles_slab",
+    public static final RegistryObject<Block> SHINGLES_SLAB = register("shingles_slab",
             () -> new CustomSlab(AbstractBlock.Properties.create(Material.ROCK)
                     .hardnessAndResistance(3f, 5f)
                     .harvestTool(ToolType.PICKAXE).harvestLevel(1).sound(SoundType.STONE)));
 
-    public static final RegistryObject<CustomSlab> SHINGLES_SLAB_LOW = register("shingles_slab_low",
+    public static final RegistryObject<Block> SHINGLES_SLAB_LOW = register("shingles_slab_low",
             () -> new CustomSlab(AbstractBlock.Properties.create(Material.ROCK)
                     .hardnessAndResistance(3f, 5f)
                     .harvestTool(ToolType.PICKAXE).harvestLevel(1).sound(SoundType.STONE)));
@@ -315,6 +320,41 @@ public class ModBlocks
             () -> new Block(AbstractBlock.Properties.create(Material.CLAY)
                     .hardnessAndResistance(2f, 2f)
                     .harvestLevel(1).harvestTool(ToolType.SHOVEL).sound(SoundType.GROUND)));
+
+    public static final RegistryObject<Block> BROWN_BRICKS = register("brown_bricks",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+            .hardnessAndResistance(5f, 7f).setRequiresTool()
+            .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> BROWN_BRICK_STAIRS = register("brown_brick_stairs",
+            () -> new BrownStairs(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestTool(ToolType.PICKAXE).harvestLevel(1).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> BROWN_BRICK_STAIRS_HOLE = register("brown_brick_stairs_hole",
+            () -> new BrownStairsHole(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestTool(ToolType.PICKAXE).harvestLevel(1).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> CHIMNEY_BLOCK = register("chimney_block",
+            () -> new ChimneyBlock(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestTool(ToolType.PICKAXE).harvestLevel(1).sound(SoundType.STONE)));
+
+   public static final RegistryObject<Block> CHIMNEY_STAIRS = register("chimney_stairs",
+            () -> new CustomStairs(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestTool(ToolType.PICKAXE).harvestLevel(1).sound(SoundType.STONE)));
+
+   public static final RegistryObject<Block> BROWN_BRICK_SLAB = register("brown_brick_slab",
+           () -> new BrickSlab(AbstractBlock.Properties.create(Material.ROCK)
+                   .hardnessAndResistance(5f, 7f).setRequiresTool()
+                   .harvestTool(ToolType.PICKAXE).harvestLevel(1).sound(SoundType.STONE)));
+
+   public static final RegistryObject<Block> BROWN_BRICK_TILE = register("brown_brick_tile",
+           () -> new BrickTile(DyeColor.BROWN, AbstractBlock.Properties.create(Material.ROCK)
+           .hardnessAndResistance(5f, 7f).setRequiresTool()
+           .harvestTool(ToolType.PICKAXE).harvestLevel(1).sound(SoundType.STONE)));
 
     public static void register() { }
 

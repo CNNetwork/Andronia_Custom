@@ -1,5 +1,6 @@
 package com.goatz.androcustom.block;
 
+import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.SlabBlock;
@@ -22,7 +23,7 @@ import java.util.Map;
 
 public class BaseHorizontalBlock extends Block {
 
-    protected static final Map<Direction, VoxelShape> SHAPES = new HashMap<Direction, VoxelShape>();
+    protected final Map<Direction, VoxelShape> SHAPES = new HashMap<Direction, VoxelShape>();
     public static final DirectionProperty HORIZONTAL_FACING = BlockStateProperties.HORIZONTAL_FACING;
 
     public BaseHorizontalBlock(Properties properties)
@@ -55,7 +56,7 @@ public class BaseHorizontalBlock extends Block {
         builder.add(HORIZONTAL_FACING);
     }
 
-    protected static void calculateShapes(Direction to, VoxelShape shape) {
+    protected void calculateShapes(Direction to, VoxelShape shape) {
         VoxelShape[] buffer = new VoxelShape[] { shape, VoxelShapes.empty() };
 
         int times = (to.getHorizontalIndex() - Direction.NORTH.getHorizontalIndex() + 4) % 4;

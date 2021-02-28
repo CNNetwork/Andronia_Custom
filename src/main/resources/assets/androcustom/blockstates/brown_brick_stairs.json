@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": {"model": "androcustom:block/brown_brick_stairs"},
+    "facing=south": {"model": "androcustom:block/brown_brick_stairs", "y": 180},
+    "facing=west": {"model": "androcustom:block/brown_brick_stairs", "y": 270},
+    "facing=east": {"model": "androcustom:block/brown_brick_stairs", "y": 90}
+  }
+}

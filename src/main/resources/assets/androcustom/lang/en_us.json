@@ -58,5 +58,11 @@
   "block.androcustom.stone_brick": "Stone Brick",
   "block.androcustom.stone_brick_2": "Stone Brick 2",
   "block.androcustom.stone_brick_3": "Stone Brick 3",
-  "block.androcustom.trash_block": "Trash Block"
+  "block.androcustom.trash_block": "Trash Block",
+  "block.androcustom.brown_bricks": "Brown Bricks",
+  "block.androcustom.brown_brick_stairs": "Brown Brick Stairs",
+  "block.androcustom.brown_brick_stairs_hole": "Brown Brick Stairs Hole",
+  "block.androcustom.chimney_block": "Chimney",
+  "block.androcustom.chimney_stairs": "Brown Brick Chimney Stairs",
+  "block.androcustom.brown_brick_slabs": "Brown Brick Slab"
 }
