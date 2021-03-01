@@ -1,6 +1,7 @@
 package com.goatz.androcustom;
 
 import com.goatz.androcustom.block.ModBlocks;
+import com.goatz.androcustom.block.ModFluids;
 import com.goatz.androcustom.item.ModItems;
 import com.goatz.androcustom.util.Registration;
 import net.minecraft.block.Block;
@@ -34,6 +35,7 @@ public class AndroCustom
         Registration.register();
         ModItems.register();
         ModBlocks.register();
+        ModFluids.register();
         // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         // Register the enqueueIMC method for modloading

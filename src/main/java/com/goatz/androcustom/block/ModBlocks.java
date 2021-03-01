@@ -317,7 +317,7 @@ public class ModBlocks
                     .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
 
     public static final RegistryObject<Block> TRASH_BLOCK = register("trash_block",
-            () -> new Block(AbstractBlock.Properties.create(Material.CLAY)
+            () -> new TrashBlock(AbstractBlock.Properties.create(Material.CLAY)
                     .hardnessAndResistance(2f, 2f)
                     .harvestLevel(1).harvestTool(ToolType.SHOVEL).sound(SoundType.GROUND)));
 
