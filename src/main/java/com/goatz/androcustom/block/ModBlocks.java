@@ -347,12 +347,12 @@ public class ModBlocks
                     .harvestTool(ToolType.PICKAXE).harvestLevel(1).sound(SoundType.STONE)));
 
    public static final RegistryObject<Block> BROWN_BRICK_SLAB = register("brown_brick_slab",
-           () -> new BrickSlab(AbstractBlock.Properties.create(Material.ROCK)
+           () -> new SlabBlock(AbstractBlock.Properties.create(Material.ROCK)
                    .hardnessAndResistance(5f, 7f).setRequiresTool()
                    .harvestTool(ToolType.PICKAXE).harvestLevel(1).sound(SoundType.STONE)));
 
    public static final RegistryObject<Block> BROWN_BRICK_TILE = register("brown_brick_tile",
-           () -> new BrickTile(DyeColor.BROWN, AbstractBlock.Properties.create(Material.ROCK)
+           () -> new CarpetBlock(DyeColor.BROWN, AbstractBlock.Properties.create(Material.ROCK)
            .hardnessAndResistance(5f, 7f).setRequiresTool()
            .harvestTool(ToolType.PICKAXE).harvestLevel(1).sound(SoundType.STONE)));
 
