@@ -37,7 +37,7 @@ public class ModFluids {
             .block(() -> ModFluids.TRASH_FLUID_BLOCK.get());
 
     public static final RegistryObject<FlowingFluidBlock> TRASH_FLUID_BLOCK = Registration.BLOCKS.register("trash",
-            () -> new FlowingFluidBlock(() -> ModFluids.TRASH_FLUID.get(), AbstractBlock.Properties.create(Material.WATER)
+            () -> new TrashFluidBlock(() -> ModFluids.TRASH_FLUID.get(), AbstractBlock.Properties.create(Material.WATER)
             .doesNotBlockMovement().hardnessAndResistance(5f).noDrops()));
 
     public static void register() {}
