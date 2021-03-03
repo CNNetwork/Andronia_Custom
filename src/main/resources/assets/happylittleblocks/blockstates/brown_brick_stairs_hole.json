@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": {"model": "happylittleblocks:block/brown_brick_stairs_hole"},
+    "facing=south": {"model": "happylittleblocks:block/brown_brick_stairs_hole", "y": 180},
+    "facing=west": {"model": "happylittleblocks:block/brown_brick_stairs_hole", "y": 270},
+    "facing=east": {"model": "happylittleblocks:block/brown_brick_stairs_hole", "y": 90}
+  }
+}

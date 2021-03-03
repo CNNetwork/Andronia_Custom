@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "facing=north": {"model": "androcustom:block/chimney_stairs"},
-    "facing=south": {"model": "androcustom:block/chimney_stairs", "y": 180},
-    "facing=west": {"model": "androcustom:block/chimney_stairs", "y": 270},
-    "facing=east": {"model": "androcustom:block/chimney_stairs", "y": 90}
-  }
-}

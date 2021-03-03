@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "facing=north": {"model": "androcustom:block/brown_brick_stairs_hole"},
-    "facing=south": {"model": "androcustom:block/brown_brick_stairs_hole", "y": 180},
-    "facing=west": {"model": "androcustom:block/brown_brick_stairs_hole", "y": 270},
-    "facing=east": {"model": "androcustom:block/brown_brick_stairs_hole", "y": 90}
-  }
-}

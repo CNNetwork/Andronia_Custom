@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "androcustom:block/base_paper_wall"
-  }
-}
-

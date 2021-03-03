@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "happylittleblocks:block/brown_brick_slab"
+    },
+    "type=double": {
+      "model": "happylittleblocks:block/brown_bricks"
+    },
+    "type=top": {
+      "model": "happylittleblocks:block/brown_brick_slab_top"
+    }
+  }
+}
