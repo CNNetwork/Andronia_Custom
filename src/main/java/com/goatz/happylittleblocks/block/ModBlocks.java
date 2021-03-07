@@ -3,12 +3,20 @@ package com.goatz.happylittleblocks.block;
 import com.goatz.happylittleblocks.util.Registration;
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.RenderTypeLookup;
+import net.minecraft.entity.EntityType;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.DyeColor;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.IBlockReader;
+import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.ToolType;
+import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.RegistryObject;
+import net.minecraftforge.fml.loading.FMLEnvironment;
 
 
 import java.util.function.Supplier;
@@ -347,6 +355,26 @@ public class ModBlocks
            () -> new CarpetBlock(DyeColor.BROWN, AbstractBlock.Properties.create(Material.ROCK)
            .hardnessAndResistance(5f, 7f).setRequiresTool()
            .harvestTool(ToolType.PICKAXE).harvestLevel(1).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> SWAMP_COBBLESTONE = register("swamp_cobblestone",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> TAIGA_COBBLESTONE = register("taiga_cobblestone",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .hardnessAndResistance(5f, 7f).setRequiresTool()
+                    .harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> OAK_WOOD_TILE = register("oak_wood_tile",
+            () -> new Block(AbstractBlock.Properties.create(Material.WOOD)
+                    .hardnessAndResistance(3f, 5f)
+                    .harvestLevel(1).harvestTool(ToolType.AXE).sound(SoundType.WOOD)));
+
+    public static final RegistryObject<Block> SPRUCE_WOOD_TILE = register("spruce_wood_tile",
+            () -> new Block(AbstractBlock.Properties.create(Material.WOOD)
+                    .hardnessAndResistance(3f, 5f)
+                    .harvestLevel(1).harvestTool(ToolType.AXE).sound(SoundType.WOOD)));
 
     public static void register() { }
 

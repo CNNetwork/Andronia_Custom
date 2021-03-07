@@ -65,5 +65,9 @@
   "block.happylittleblocks.chimney_block": "Chimney",
   "block.happylittleblocks.brown_brick_tile": "Brown Brick Tile",
   "block.happylittleblocks.chimney_stairs": "Brown Brick Chimney Stairs",
-  "block.happylittleblocks.brown_brick_slab": "Brown Brick Slab"
+  "block.happylittleblocks.brown_brick_slab": "Brown Brick Slab",
+  "block.happylittleblocks.swamp_cobblestone": "Swamp Cobblestone",
+  "block.happylittleblocks.taiga_cobblestone": "Taiga Cobblestone",
+  "block.happylittleblocks.oak_wood_tile": "Oak Wood Tile",
+  "block.happylittleblocks.spruce_wood_tile": "Spruce Wood Tile"
 }
