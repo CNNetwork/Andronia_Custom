@@ -5,10 +5,13 @@ import net.minecraft.block.GrassBlock;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.*;
 import net.minecraft.util.ActionResultType;
+import net.minecraft.util.Direction;
 import net.minecraft.util.Hand;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.BlockRayTraceResult;
+import net.minecraft.world.IBlockReader;
 import net.minecraft.world.World;
+import net.minecraftforge.common.IPlantable;
 
 import javax.annotation.ParametersAreNonnullByDefault;
 
@@ -29,6 +32,11 @@ public class TrashBlock extends GrassBlock {
             return ActionResultType.SUCCESS;
         }
         return ActionResultType.FAIL;
+    }
+
+    @Override
+    public boolean canSustainPlant(BlockState state, IBlockReader world, BlockPos pos, Direction facing, IPlantable plantable) {
+        return true;
     }
 }
 
