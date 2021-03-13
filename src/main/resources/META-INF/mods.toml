@@ -27,7 +27,7 @@ displayName="Happy Little Blocks" #mandatory
 # A URL for the "homepage" for this mod, displayed in the mod UI
 # displayURL="http://example.com/" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
-#logoFile="examplemod.png" #optional
+logoFile="happy.png"
 # A text field displayed in the mod UI
 credits="Thanks to everyone involved in making this mod." #optional
 # A text field displayed in the mod UI
